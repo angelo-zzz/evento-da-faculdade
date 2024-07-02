@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornada de Inovação Científica - Universidade Vale do Cricaré</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Jornada de Inovação Científica</h1>
+        <p>Universidade Vale do Cricaré - Salas e Auditórios</p>
+    </header>
+    <main>
+        <section id="detalhes-evento">
+            <h2>Detalhes do Evento</h2>
+            <p>Data: 24 a 27 de Junho de 2024</p>
+            <p>Horário: 19:00 - 21:30</p>
+            <p>Descrição: Semana de apresentação da 6ª Jornada de Inovação Científica, esta semana será dedicada a avaliação da atividade proposta durante o semestre com a finalidade de expandir e compartilhar o conhecimento através das apresentações.</p>
+        </section>
+        <section id="formulario-inscricao">
+            <h2>Formulário de Inscrição</h2>
+            <form id="cadastro-form">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+                
+                <label for="instituicao">Instituição:</label>
+                <input type="text" id="instituicao" name="instituicao">
+                
+                <label for="observacoes">Observações:</label>
+                <textarea id="observacoes" name="observacoes"></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="mensagem-sucesso" class="hidden">
+                <p>Cadastro realizado com sucesso!</p>
+            </div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>

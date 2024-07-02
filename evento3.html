@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palestra sobre inovações - Universidade Vale do Cricaré</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Palestra sobre inovações</h1>
+        <p>Universidade Vale do Cricaré - Auditório Principal</p>
+    </header>
+    <main>
+        <section id="detalhes-evento">
+            <h2>Detalhes do Evento</h2>
+            <p>Data: 19 de Outubro de 2024</p>
+            <p>Horário: 19:00 - 21:00</p>
+            <p>Descrição: Venha conhecer novas ideias e pensamentos na nossa palestra sobre inovações.</p>
+        </section>
+        <section id="formulario-inscricao">
+            <h2>Formulário de Inscrição</h2>
+            <form id="cadastro-form">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+                
+                <label for="instituicao">Instituição:</label>
+                <input type="text" id="instituicao" name="instituicao">
+                
+                <label for="observacoes">Observações:</label>
+                <textarea id="observacoes" name="observacoes"></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="mensagem-sucesso" class="hidden">
+                <p>Cadastro realizado com sucesso!</p>
+            </div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
